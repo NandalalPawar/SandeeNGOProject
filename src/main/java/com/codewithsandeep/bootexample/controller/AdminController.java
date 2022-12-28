@@ -27,7 +27,8 @@ import jakarta.validation.Valid;
 @RestController
 @RequestMapping("/api")
 public class AdminController {
-
+// this is Admin controller class
+	
 	@Autowired
 	private AdminService adminService;
 	
